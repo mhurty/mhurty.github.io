@@ -1,2 +1,3 @@
 name: Theatre Of My Mind
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
