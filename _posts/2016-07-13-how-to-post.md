@@ -18,6 +18,8 @@ git commit -m <“note”>
 
 git push origin < name-of-your-editing-branch >
 
+— [create a pull request](/blog/2016/07/22/pull-requests) —
+
 git checkout master
 
 git merge < name-of-your-editing-branch >
