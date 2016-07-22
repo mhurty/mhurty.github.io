@@ -24,9 +24,16 @@ do all your editing, and once you are done ...
 - git merge < name-of-your-editing-branch >
 (this merges your branch into the copy of master on your laptop.)
 
-[create a pull request](/blog/2016/07/22/pull-requests)
+create a pull request
 ------------------------
+Before merging your new or revised query into Github, you will create a Pull Request and ask for a review from the members of your team. To create a pull request, login to Github and select the repository in which you are working.
 
+- Click the green "New Pull Request" button.
+- Compare the master branch to your working branch.
+- Click the green "Create Pull Request" button to create the actual pull request.
+- Share the Pull Request (PR) with your team.
+- Process the feedback from your team.
+- Once you get an emoji from your team members, [merge your branch with master.]
 (You can merge the branch into the original git master using the merge button on github, or you can merge using the command below.)
 
 - git push origin master
