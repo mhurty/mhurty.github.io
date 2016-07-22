@@ -8,6 +8,7 @@ Before merging your new or revised query into Git, you will create a Pull Reques
 
 - Click the green "New Pull Request" button 
 - Compare the master branch to your working branch
+- Click the green "Create Pull Request" button to create the actual pull request.
 - Share the Pull Request (PR) with your team
 - Process the feedback from your team.
 - Once you get an emoji from your team members, [merge your branch with master.](/blog/2016/07/13/how-to-post).	
