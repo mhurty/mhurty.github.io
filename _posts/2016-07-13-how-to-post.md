@@ -33,11 +33,9 @@ Before merging your new or revised query into Github, you will create a Pull Req
 - Click the green "Create Pull Request" button to create the actual pull request.
 - Share the Pull Request (PR) with your team.
 - Process the feedback from your team.
-- Once you get an emoji from your team members, merge your branch with master.
-(You can merge the branch into the original git master using the merge button on github, or you can merge using the command below.)
+- Once you get an emoji from your team members, merge your branch with master. (You can merge the branch into the original git master using the merge button on github, or you can merge using the command below.)
 
-- git push origin master
-(this pushes your local copy of "master" to the github "master")
+- git push origin master (this pushes your local copy of "master" to the github "master")
 
 delete the working branch from your local system
 ------------------------------------------------
