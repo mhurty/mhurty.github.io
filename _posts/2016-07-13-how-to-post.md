@@ -53,7 +53,7 @@ Switch to the **berks** repository on your laptop and create a new branch so you
 
 - `git checkout -b name-of-your-editing-branch`
 
-Open the Gemfile and edit the "ESH data access" attribute by replacing the "branch:" setting (shown below as "master") with the _name-of-your-editing-branch:_
+Open the Gemfile and look for the line "# ESH data access" and replace the branch: attribute (shown below as "master") with the _name-of-your-editing-branch:_
 
 >... 
 
@@ -73,10 +73,10 @@ Launch Github in your browser and get into the **berks** repository:
 - Compare the master branch to your working branch.
 - Click the green "Create Pull Request" button to create the actual pull request.
 
-Create the **berks** Review App using the tools on Heroku. **Process to be further clarified here. (I need to review the process for creating a review app on Heroku before completing this section.)**
+Create the **berks** Review App using the tools on Heroku. **Process to be further clarified here. My credentials won't allow me to create a review app, but the process is spelled out in [Steve's review app documentation](https://educationsuperhighway.atlassian.net/wiki/display/SOFTWARE/New+Heroku+Deploy+with+pipelines) on the ESH wiki.**
 
 - Share the Pull Request (PR) and Review App with your team.
-- Process the feedback from your team.
+- Process the feedback from your team (making updates in the **ecto** branch). 
 - Once you get an emoji from your team members (at least one analyst and one developer), merge your **ecto** branch with master.
 
 Be sure you are working in **ecto** -- the **berks** editing branch should *not* be merged. (And once the review process is complete and your **ecto** branch has been merged, you should delete the working branch in **berks**.)
@@ -88,7 +88,7 @@ In **ecto** on your local system:
 - `git merge test`
 - `git push origin master`
 
-(this pushes your local editing branch into your local master then pushes the local master to the github .master.)
+(This updates your local master to match the master on github, then merges your local editing branch into your local master then pushes your updated local master to the github master.)
 
 
 Switch to **berks** and delete the working branch from your local system
