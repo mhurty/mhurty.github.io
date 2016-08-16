@@ -30,7 +30,7 @@ Once you have cloned or updated the repositories on your local system:
 Add your files and do all your editing, and once you are done ... 
 ----------------------------------------------
 
-Edit versions.rb in the **repository** to show the updated version. The version will be something like 1.5.2 and you will increment the middle number to indicate that this is a minor enhancement. (i.e., in this case you would change the version to 1.6.2)
+Edit versions.rb in the **ecto** repository to show the updated version. The version will be something like 1.5.2 and you will increment the middle number to indicate that this is a minor enhancement. (i.e., in this case you would change the version to 1.6.2)
 
 - `git status`
 (this will show a list of files that have been edited and need to be committed.)
@@ -73,11 +73,10 @@ Launch Github in your browser and get into the **berks** repository:
 - Compare the master branch to your working branch.
 - Click the green "Create Pull Request" button to create the actual pull request.
 
-To create the Review App, use the tools on Heroku to create the **berks** review app. **PROCESS TO BE FURTHER CLARIFIED HERE.** (I need to review the process for creating a review app on Heroku.)
+Create the **berks** Review App using the tools on Heroku. **Process to be further clarified here. (I need to review the process for creating a review app on Heroku before completing this section.)**
 
 - Share the Pull Request (PR) and Review App with your team.
 - Process the feedback from your team.
-<<<<<<< HEAD
 - Once you get an emoji from your team members (at least one analyst and one developer), merge your **ecto** branch with master.
 
 Be sure you are working in **ecto** -- the **berks** editing branch should *not* be merged. (And once the review process is complete and your **ecto** branch has been merged, you should delete the working branch in **berks**.)
@@ -90,11 +89,7 @@ In **ecto** on your local system:
 - `git push origin master`
 
 (this pushes your local editing branch into your local master then pushes the local master to the github .master.)
-=======
-- Once you get an emoji from your team members, merge your branch with master. (You can merge the branch into the original git master using the merge button on github, or you can merge using the command below.)
 
-- git push origin master (this pushes your local copy of "master" to the github "master")
->>>>>>> e6c3a479409b2ffc4a07d965ccef53178300e98a
 
 Switch to **berks** and delete the working branch from your local system
 ------------------------------------------------
