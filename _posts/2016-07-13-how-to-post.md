@@ -51,7 +51,7 @@ Before merging your new or revised query into **ecto**, you will create 2 Pull R
 
 Switch to the **berks** repository on your laptop and create a new branch so you can update the Gemfile with the path to your working branch in ecto so that you can create a Review App. (For simplicity, consider using the same name for the berks repository as the branch name you are using on the ecto repository.):
 
-- `git checkout -b < name-of-your-editing-branch`
+- `git checkout -b name-of-your-editing-branch`
 
 Open the Gemfile and edit the "ESH data access" attribute by replacing the "branch:" setting (shown below as "master") with the _name-of-your-editing-branch:_
 

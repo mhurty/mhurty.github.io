@@ -57,3 +57,8 @@ strong {
 	text-transform: uppercase;
 	font-size: 0.8em;
 }
+
+.highligher-rouge {
+ background-color: #EBC1FF;
+ padding: 1px; 
+}
