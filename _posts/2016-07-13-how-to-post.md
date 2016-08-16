@@ -79,7 +79,7 @@ Create the **berks** Review App using the tools on Heroku. **Process to be furth
 - Process the feedback from your team (making updates in the **ecto** branch). 
 - Once you get an emoji from your team members (at least one analyst and one developer), merge your **ecto** branch with master.
 
-Be sure you are working in **ecto** -- the **berks** editing branch should *not* be merged. (And once the review process is complete and your **ecto** branch has been merged, you should delete the working branch in **berks**.)
+You only need to merge into **ecto** -- the **berks** editing branch should *not* be merged. (And once the review process is complete and your **ecto** branch has been merged, you should delete the working branch in **berks**.)
 
 In **ecto** on your local system: 
 
