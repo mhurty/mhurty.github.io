@@ -51,3 +51,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+strong {
+background-color: #CAFF97;
+}

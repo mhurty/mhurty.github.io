@@ -73,7 +73,7 @@ Launch Github in your browser and get into the **berks** repository:
 - Compare the master branch to your working branch.
 - Click the green "Create Pull Request" button to create the actual pull request.
 
-To create the Review App, use the tools on github to create the **berks** review app. <span style=background-color:yellow;>PROCESS TO BE FURTHER CLARIFIED HERE.</span>
+To create the Review App, use the tools on Heroku to create the **berks** review app. **PROCESS TO BE FURTHER CLARIFIED HERE.** (I need to review the process for creating a review app on Heroku.)
 
 - Share the Pull Request (PR) and Review App with your team.
 - Process the feedback from your team.
