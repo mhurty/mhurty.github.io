@@ -77,6 +77,7 @@ To create the Review App, use the tools on github to create the **berks** review
 
 - Share the Pull Request (PR) and Review App with your team.
 - Process the feedback from your team.
+<<<<<<< HEAD
 - Once you get an emoji from your team members (at least one analyst and one developer), merge your **ecto** branch with master.
 
 Be sure you are working in **ecto** -- the **berks** editing branch should *not* be merged. (And once the review process is complete and your **ecto** branch has been merged, you should delete the working branch in **berks**.)
@@ -89,6 +90,11 @@ In **ecto** on your local system:
 - `git push origin master`
 
 (this pushes your local editing branch into your local master then pushes the local master to the github .master.)
+=======
+- Once you get an emoji from your team members, merge your branch with master. (You can merge the branch into the original git master using the merge button on github, or you can merge using the command below.)
+
+- git push origin master (this pushes your local copy of "master" to the github "master")
+>>>>>>> e6c3a479409b2ffc4a07d965ccef53178300e98a
 
 Switch to **berks** and delete the working branch from your local system
 ------------------------------------------------
