@@ -22,12 +22,14 @@ This will bring your local master branch up to date with the current master on g
 
 While you are at it, you will also need a copy of the **berks** repository on your laptop, so repeat the above steps with the **berks** repository.
 
-Once you have cloned or updated the repositories on your local system:
----------------------------------------------------------
+Add or update your files
+------------------------
+
+Once you have cloned or updated the repositories on your local system, open the **ecto** repository and checkout a new branch for editing:
 
 - `git checkout -b name-of-your-editing-branch`
 
-Add your files and do all your editing, and once you are done ... 
+Add your queries: Components go in the folder appropriate for the fiscal year. (There are currently fy2015_districts and fy2016_districts folders for the components.) Endpoints go in the endpoints folder. You may need to edit the FROM statement in your endpoint query to add the folder to the component view name. E.g.,  your editing. When you are done uploading/editing ... 
 ----------------------------------------------
 
 Edit versions.rb in the **ecto** repository to show the updated version. The version will be something like 1.5.2 and you will increment the middle number to indicate that this is a minor enhancement. (i.e., in this case you would change the version to 1.6.2)
@@ -79,7 +81,7 @@ Create the **berks** Review App using the tools on Heroku. **Process to be furth
 - Process the feedback from your team (making updates in the **ecto** branch). 
 - Once you get an emoji from your team members (at least one analyst and one developer), merge your **ecto** branch with master.
 
-You only need to merge into **ecto** -- the **berks** editing branch should *not* be merged. (And once the review process is complete and your **ecto** branch has been merged, you should delete the working branch in **berks**.)
+You only need to merge into **ecto** -- the **berks** editing branch should *not* be merged.
 
 In **ecto** on your local system: 
 
