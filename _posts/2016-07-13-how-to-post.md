@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Post"
+title: "Deploy a SQL query to Material Girl in Ecto"
 date: 2016-08-15
 ---
 
