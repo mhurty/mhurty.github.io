@@ -29,8 +29,12 @@ Once you have cloned or updated the repositories on your local system, open the 
 
 - `git checkout -b name-of-your-editing-branch`
 
-Add your queries: Components go in the folder appropriate for the fiscal year. (There are currently fy2015_districts and fy2016_districts folders for the components.) Endpoints go in the endpoints folder. You may need to edit the FROM statement in your endpoint query to add the folder to the component view name. E.g.,  your editing. When you are done uploading/editing ... 
-----------------------------------------------
+Add your queries:
+-----------------
+
+Components go in the folder appropriate for the fiscal year. (There are currently `fy2015_districts` and `fy2016_districts` folders for the components.) Endpoints go in the endpoints folder. You may need to edit the FROM statement in your endpoint query to add the folder to the component view name. E.g., if you're editing a query with components in the fy2016_districts folder you need to prepend that to the name of the component in your endpoint query.
+
+When you are done uploading/editing ... 
 
 Edit versions.rb in the **ecto** repository to show the updated version. The version will be something like 1.5.2 and you will increment the middle number to indicate that this is a minor enhancement. (i.e., in this case you would change the version to 1.6.2)
 
