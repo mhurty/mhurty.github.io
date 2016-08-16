@@ -36,7 +36,7 @@ Components go in the folder appropriate for the fiscal year. (There are currentl
 
 When you are done uploading/editing ... 
 
-Edit versions.rb in the **ecto** repository to show the updated version. The version will be something like 1.5.2 and you will increment the middle number to indicate that this is a minor enhancement. (i.e., in this case you would change the version to 1.6.2)
+Edit `versions.rb` in the **ecto** repository to show the updated version. The version will be something like 1.5.2 and you will increment the middle number to indicate that this is a minor enhancement. (i.e., in this case you would change the version to 1.6.2)
 
 - `git status`
 (this will show a list of files that have been edited and need to be committed.)
@@ -55,11 +55,11 @@ Before merging your new or revised query into **ecto**, you will create 2 Pull R
 - Compare the master branch to your working branch.
 - Click the green "Create Pull Request" button to create the actual pull request.
 
-Switch to the **berks** repository on your laptop and create a new branch so you can update the Gemfile with the path to your working branch in ecto so that you can create a Review App. (For simplicity, consider using the same name for the berks repository as the branch name you are using on the ecto repository.):
+Switch to the **berks** repository on your laptop and create a new branch so you can update the `Gemfile` with the path to your working branch in ecto so that you can create a Review App. (For simplicity, consider using the same name for the berks repository as the branch name you are using on the ecto repository.):
 
 - `git checkout -b name-of-your-editing-branch`
 
-Open the Gemfile and look for the line "# ESH data access" and replace the branch: attribute (shown below as "master") with the _name-of-your-editing-branch:_
+Open the `Gemfile` and look for the line "# ESH data access" and replace the "branch:" attribute (shown below as "master") with the _name-of-your-editing-branch:_
 
 >... 
 
