@@ -63,7 +63,9 @@ Before merging your new or revised query into **ecto**, you will create 2 Pull R
 
 - Click the green "New Pull Request" button.
 - Compare the master branch to your working branch. <sup id='fnref2'>[2]</sup>
+- Add a comprehensive note on the content of the Pull Request so that your reviewers will know what they are looking for in the new or updated code. 
 - Click the green "Create Pull Request" button to create the actual pull request.
+
 
 Switch to the **berks** repository on your laptop and create a new branch so you can update the `Gemfile` with the path to your working branch in ecto so that you can create a Review App. (For simplicity, consider using the same name for the berks repository as the branch name you are using on the ecto repository.):
 
@@ -95,17 +97,14 @@ Create the **berks** Review App using the tools on Heroku. **Process to be furth
 - Process the feedback from your team (making updates in the **ecto** branch). 
 - Once you get an emoji from your team members (at least one analyst and one developer), merge your **ecto** branch with master.
 
+Merge your new work into Master.
+--------------------------------
+
 You only need to merge into **ecto** -- the **berks** editing branch should *not* be merged.
 
-In **ecto** on your local system: 
+You can use the Merge tool on Github to merge the branches. (This is the best alternative, but if you prefer, your changes may be merged from the command line as well.) To merge on Github, use the green "Merge Pull Request" button midway down the pull request page. 
 
-- `git checkout master`
-- `git pull origin master`
-- `git merge test`
-- `git push origin master`
-
-(This updates your local master to match the master on github, then merges your local editing branch into your local master then pushes your updated local master to the github master.)
-
+![github merge](/img/github-merge.png)
 
 Switch to **berks** and delete the working branch from your local system
 ------------------------------------------------
@@ -113,14 +112,11 @@ Switch to **berks** and delete the working branch from your local system
 - `git checkout master`
 - `git branch -d name-of-your-editing-branch`
 
-
 ---
-
 
 Last Update: August 16, 2016
 
-
-<hr>
+---
 
 Notes
 	
