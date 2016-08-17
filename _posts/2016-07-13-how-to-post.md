@@ -20,7 +20,9 @@ If you've already worked in the **ecto** repository, you should refresh your loc
 
 This will bring your local master branch up to date with the current master on github
 
-While you are at it, you will also need a copy of the **berks** repository on your laptop, so repeat the above steps with the **berks** repository.
+While you are at it, you will also need a copy of the **berks** repository on your laptop, so repeat the above steps with the **berks** repository. Before cloning the **berks** repository, make sure you are not working inside the **ecto** repo -- we want to keep these two folders separate on your local system so that **berks** doesn't end up inside of **ecto**. As an example, here's how my local folder is set up:
+
+![my git folders](/img/git-folders.png)
 
 Add or update your files
 ------------------------
@@ -32,7 +34,7 @@ Once you have cloned or updated the repositories on your local system, open the 
 Add your queries:
 -----------------
 
-Components go in the folder appropriate for the fiscal year. (There are currently `fy2015_districts` and `fy2016_districts` folders for the components.) Endpoints go in the endpoints folder. You may need to edit the FROM statement in your endpoint query to add the folder to the component view name. E.g., if you're editing a query with components in the fy2016_districts folder you need to prepend that to the name of the component in your endpoint query.
+Components go in the folder appropriate for the fiscal year. (There are currently `fy2015_districts` and `fy2016_districts` folders for the components.) Endpoints go in the endpoints folder. You may need to edit the FROM statement in your endpoint query to add the folder to the component view name. E.g., if you're editing a query with components in the fy2016_districts folder you need to prepend that to the name of the component in your endpoint query.<sup id='fnref1'>[1]</sup>
 
 When you are done uploading/editing ... 
 
@@ -102,3 +104,33 @@ Switch to **berks** and delete the working branch from your local system
 
 - `git checkout master`
 - `git branch -d name-of-your-editing-branch`
+
+
+---
+
+
+Last Update: August 16, 2016
+
+
+<hr>
+
+Notes
+	
+<a id="fn1"></a>
+**From Statement**: 
+When you initially create the views and write your queries, you may have assumed that all the components and the endpoints would be in the same directory. Material\_Girl keeps components and endpoints in separate folders in the repository. Material\_Girl has defined folder paths, but the specific folder that is used to maintain a specific name-space for the components needs to be specified in your endpoint query. For example, if you created your endpoint by selecting from a file named: `district_metrics.sql` your query's *from* statement might say 
+
+`select (something) from district_metrics` 
+
+but the `district_metrics` component file is in the `fy2016_districts` folder. In order to find the file, you'll need to prepend `fy2016_districts` in your *from* statement so it reads 
+
+`select (something) from fy2016_districts.district_metrics` 
+
+to give your endpoint the information it needs to find the query file. <a href="#fnref1"  class='footnoteBackLink'  title="Jump back to footnote 1 in the text.">&#x21A9;&#xFE0E;</a>
+
+
+
+[1]: #fn1
+[2]: #fn2
+
+
