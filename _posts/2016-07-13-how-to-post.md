@@ -114,7 +114,7 @@ Switch to **berks** and delete the working branch from your local system
 
 ---
 
-Last Update: August 16, 2016
+Last Update: August 17, 2016
 
 ---
 
@@ -138,8 +138,9 @@ to give your endpoint the information it needs to find the query file. <a href="
 When you create a Pull Request you are going to click on a control on the Github page that selects which existing branch to which you are going to compare your editing branch. This will allow you to see changes you've made to any files compared to previous versions of those files. (If the files are new, of course there won't be any code changes to compare.) If you are uploading changes/updates, other analysts and developers will review the code in your new or updated files by using the diff interface that displays those changes side-by-side with the previous version of the code. 
 <a href="#fnref2"  class='footnoteBackLink'  title="Jump back to footnote 2 in the text.">&#x21A9;&#xFE0E;</a>
 
+Thanks to [Jen][3] for reviewing and offering suggestions for improvements to these instructions.
 
 [1]: #fn1
 [2]: #fn2
-
+[3]: https://github.com/jovergaag
 
