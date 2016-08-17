@@ -34,9 +34,9 @@ Once you have cloned or updated the repositories on your local system, open the 
 Add your queries to the Material\_Girl instance in ecto
 -----------------
 
-Components go in the folder appropriate for the fiscal year. (There are currently `fy2015_districts` and `fy2016_districts` folders for the components.) For example:
+Components go in the folder appropriate for the fiscal year. (There are currently `fy2015_districts` and `fy2016_districts` folders for the components.) For example for 2016 district metrics, the components would go into:
 
-`ecto/db_ecto/material_girl/component/fy2016_districts` for 2016 metrics
+`ecto/db_ecto/material_girl/component/fy2016_districts` 
 
 Endpoints go in the endpoints folder:
 
