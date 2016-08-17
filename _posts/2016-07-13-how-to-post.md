@@ -62,7 +62,7 @@ create a Pull Request and Review App
 Before merging your new or revised query into **ecto**, you will create 2 Pull Requests and a review app and ask for a review from the members of your team. To create the first pull request, login to Github and select the **ecto** Repository.
 
 - Click the green "New Pull Request" button.
-- Compare the master branch to your working branch.
+- Compare the master branch to your working branch. <sup id='fnref2'>[2]</sup>
 - Click the green "Create Pull Request" button to create the actual pull request.
 
 Switch to the **berks** repository on your laptop and create a new branch so you can update the `Gemfile` with the path to your working branch in ecto so that you can create a Review App. (For simplicity, consider using the same name for the berks repository as the branch name you are using on the ecto repository.):
@@ -136,6 +136,11 @@ but the `district_metrics` component file is in the `fy2016_districts` folder. I
 
 to give your endpoint the information it needs to find the query file. <a href="#fnref1"  class='footnoteBackLink'  title="Jump back to footnote 1 in the text.">&#x21A9;&#xFE0E;</a>
 
+---
+
+**Compare Branches**: 
+When you create a Pull Request you are going to click on a control on the Github page that selects which existing branch to which you are going to compare your editing branch. This will allow you to see changes you've made to any files compared to previous versions of those files. (If the files are new, of course there won't be any code changes to compare.) If you are uploading changes/updates, other analysts and developers will review the code in your new or updated files by using the diff interface that displays those changes side-by-side with the previous version of the code. 
+<a href="#fnref2"  class='footnoteBackLink'  title="Jump back to footnote 2 in the text.">&#x21A9;&#xFE0E;</a>
 
 
 [1]: #fn1
