@@ -141,7 +141,7 @@ When you create a Pull Request you are going to click on a control on the Github
 
 ---
 
-Thanks to [Jen][3] for reviewing and offering suggestions for improvements to these instructions.
+**Thanks to [Jen][3]** for reviewing and offering suggestions for improvements to these instructions.
 
 [1]: #fn1
 [2]: #fn2
